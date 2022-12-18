@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui.Issue11878.EntryHeightSize.App.MainPage">
+
+    <Grid RowDefinitions="auto,auto">
+        <Entry WidthRequest="150"  Grid.Column="1" BackgroundColor="Red"/>
+        <Entry WidthRequest="150"  Grid.Column="1" Grid.Row="1" BackgroundColor="Red"/>
+    </Grid>
+
+</ContentPage>
